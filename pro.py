@@ -37,6 +37,6 @@ d = [[ 37 , 130 , 283 , 0 , 98 , 0, 1 , 0  ,1 , 0]]
 res = model.predict(d)
 print(res)
 
-with open("heart1.model" , "wb") as f :
+with open("heart.model" , "wb") as f :
 	pickle.dump(model , f)
 
